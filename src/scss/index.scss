@@ -1,0 +1,56 @@
+@import './fonts';
+@import './variables';
+@import './mixins';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    background-color: white;
+    // overflow: overlay;
+  }
+  body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #a9a9a945;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+  }
+
+  input,
+  textarea {
+    outline: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  li {
+    list-style: none;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+  }
+}

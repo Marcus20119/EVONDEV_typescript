@@ -1,16 +1,16 @@
-import { Fragment } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './scss/index.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <Fragment>
+  <React.StrictMode>
     <App />
-  </Fragment>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
