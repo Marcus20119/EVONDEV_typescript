@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from '~/components/Card';
+import Card from './examples/primitive_types';
 
 function App() {
   return (
-    <div>
+    <div className="m-4">
       <Card />
     </div>
   );
