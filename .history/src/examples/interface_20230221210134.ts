@@ -14,7 +14,7 @@ export interface ProductNewFeature extends Product {
   speed?: string;
 }
 
-// Hoặc có thể tạo 1 type mới bằng intersection type
+// Hoặc có thể tạo 1 type mới bằng assertion
 export type FinalProduct = Product & ProductNewFeature;
 
 export const product: ProductNewFeature = {
