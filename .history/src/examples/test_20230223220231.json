@@ -1,0 +1,110 @@
+{
+  "name": "Dracula high contrast",
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editorOverviewRuler.selectionHighlightForeground": "#ffb86c",
+    "gitDecoration.conflictingResourceForeground": "#ffb86c",
+    "inputValidation.warningBorder": "#ffb86c",
+    "list.warningForeground": "#ffb86c",
+    "settings.modifiedItemIndicator": "#ffb86c",
+    "statusBarItem.prominentHoverBackground": "#ffb86c",
+    "terminal.ansiBrightCyan": "#2cccff"
+  },
+  "tokenColors": [
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#FFB86C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["comment.block.documentation variable"],
+      "settings": {
+        "foreground": "#FFB86C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.variable.parameter",
+        "meta.at-rule.function variable",
+        "meta.at-rule.mixin variable",
+        "meta.function.arguments variable.other.php",
+        "meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#FFB86C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["constant.other.date", "constant.other.timestamp"],
+      "settings": {
+        "foreground": "#FFB86C"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.type-parameter",
+        "meta.indexer.mappedtype.declaration entity.name.type",
+        "meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#FFB86C"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.group.regexp"],
+      "settings": {
+        "foreground": "#FFB86C"
+      }
+    },
+    {
+      "scope": [
+        "meta.import variable.other.readwrite",
+        "meta.object-binding-pattern-variable variable.object.property",
+        "meta.variable.assignment.destructured.object.coffee variable"
+      ],
+      "settings": {
+        "foreground": "#FFB86C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["entity.name.type.parameter"],
+      "settings": {
+        "foreground": "#FFB86C"
+      }
+    },
+
+    {
+      "scope": [
+        "support",
+        "entity.name.type",
+        "meta.interface.ts",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#2CCCFF"
+      }
+    },
+
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#CD9731"
+      }
+    },
+
+    {
+      "scope": ["entity.name.class.js"],
+      "settings": {
+        "foreground": "#2cccff"
+      }
+    }
+  ]
+}
